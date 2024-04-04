@@ -1,5 +1,6 @@
 import { Router } from 'express'
 import TaskController from '../../controllers/task/task.controller'
+import authMiddleware from '../../middleware/auth.middleWare'
 
 const taskRoutes = Router()
 

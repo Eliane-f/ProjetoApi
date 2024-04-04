@@ -9,6 +9,8 @@ const dataBase = new DataSource({
     entities: [
         join(__dirname, '..', 'models/*.(ts,js)')
     ]
+    logging: true,
+    synchronize: true
 })
 
 dataBase.initialize()

@@ -1,4 +1,5 @@
 import { Entity, BaseEntity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm"
+import Contato from "./contato.entity"
 import Token from "./token.entity"
 
 @Entity()
